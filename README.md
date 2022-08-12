@@ -1,5 +1,5 @@
-# 利用yolov5-5进行实际场景开发部署
-主要检测目标：头盔、吸烟、火灾
+### 利用yolov5-5进行实际场景开发部署
+# 主要检测目标：头盔、吸烟、火灾
 
 基础环境：ubantu18.04+Anconda3
 
@@ -16,4 +16,12 @@
 数据处理:旋转、裁剪、缩放、Mosaics和mixup等数据增强操作；
 
 
+
+NX环境搭建
+python 3.6.9
+pytorch 1.7.0
+cuda 10.2
+cudnn 8.0
+tensorrt 7.1.3.0
+torchvison 0.8.1
 
