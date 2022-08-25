@@ -13,14 +13,16 @@
 
 搭建环境：CUDA:11.1  CUDNN:8.0  Python:3.8  torch+torchvision:1.10.1+0.11.2
 
-数据处理：旋转、裁剪、缩放、Mosaics和mixup等数据增强操作；
+数据处理：旋转、裁剪、缩放、Mosaics和mixup等数据增强操作。
+![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/1.jpg)
+![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/3.jpg)
 
-训练自定义数据集参见[知乎](https://zhuanlan.zhihu.com/p/523184652)
+训练自定义数据集参见[知乎](https://zhuanlan.zhihu.com/p/523184652)。
 
 # 部署
 为了兼顾速度以及达到客户的实际要求，选取 Jetson Xavier NX 开发板进行部署开发。
 
-NX 环境搭建：python 3.6.9  pytorch 1.7.0  cuda 10.2  cudnn 8.0  tensorrt 7.1.3.0  torchvison 0.8.1
+NX 环境搭建：python 3.6.9  pytorch 1.7.0  cuda 10.2  cudnn 8.0  tensorrt 7.1.3.0  torchvison 0.8.1。
 
 # 部署流程
 1.选择合适版本的tensorRTX
