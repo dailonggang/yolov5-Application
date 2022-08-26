@@ -14,8 +14,7 @@
 搭建环境：CUDA:11.1  CUDNN:8.0  Python:3.8  torch+torchvision:1.10.1+0.11.2
 
 数据处理：旋转、裁剪、缩放、Mosaics和mixup等数据增强操作。
-![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/1.jpg)
-![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/3.jpg)
+![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/8.jpg)
 
 训练自定义数据集参见[知乎](https://zhuanlan.zhihu.com/p/523184652)。
 
