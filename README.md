@@ -7,6 +7,7 @@
 
 项目难点：摄像头取景距离远，室内视野5~10m，室外视野在5-20m，检测类别多、尺度不一，在视野中目标较小；室外的背景复杂；夜间环境。
 
+如图所示：![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/3.jpg)
 
 # yolov5算法开发
 
@@ -15,12 +16,12 @@
 搭建环境：CUDA:11.1  CUDNN:8.0  Python:3.8  torch+torchvision:1.10.1+0.11.2
 
 数据处理：旋转、裁剪、缩放、Mosaics和mixup等数据增强操作。
-![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/8.jpg)
+![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/1.jpg)
 
 训练自定义数据集参见[知乎](https://zhuanlan.zhihu.com/p/523184652)。
 
 # 测试效果
-![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/9.jpg)
+![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/2.jpg)
 视频测试效果请见：[仓库上传视频](https://github.com/dailonggang/yolov5-Application/tree/main/%E9%83%A8%E7%BD%B2%E6%B5%8B%E8%AF%95)
 
 # 部署
@@ -43,3 +44,5 @@ NX 环境搭建：python 3.6.9  pytorch 1.7.0  cuda 10.2  cudnn 8.0  tensorrt 7.
 
 4.将生成的engine文件放入c++文件中重新编译运行
 
+# 优化
+优化效果请见：[仓库上传视频](https://github.com/dailonggang/yolov5-Application/tree/main/%E9%83%A8%E7%BD%B2%E6%B5%8B%E8%AF%95)
