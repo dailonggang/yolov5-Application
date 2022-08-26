@@ -7,6 +7,7 @@
 
 项目难点：摄像头取景距离远，室内视野5~10m，室外视野在5-20m，检测类别多、尺度不一，在视野中目标较小；室外的背景复杂；夜间环境。
 
+
 # yolov5算法开发
 
 基础环境：ubantu18.04+Anconda3
@@ -18,6 +19,10 @@
 
 训练自定义数据集参见[知乎](https://zhuanlan.zhihu.com/p/523184652)。
 
+# 测试效果
+![image](https://github.com/dailonggang/yolov5-Application/blob/main/%E9%83%A8%E7%BD%B2%E5%9B%BE%E7%89%87/9.jpg)
+视频测试效果请见：[仓库上传视频](https://github.com/dailonggang/yolov5-Application/tree/main/%E9%83%A8%E7%BD%B2%E6%B5%8B%E8%AF%95)
+
 # 部署
 为了兼顾速度以及达到客户的实际要求，选取 Jetson Xavier NX 开发板进行部署开发。
 
@@ -26,7 +31,7 @@ NX 环境搭建：python 3.6.9  pytorch 1.7.0  cuda 10.2  cudnn 8.0  tensorrt 7.
 # 部署流程
 1.选择合适版本的tensorRTX
 
-对照YOLOv5版本，[参考](https://github.com/wang-xinyu/tensorrtx/tree/master/yolov5)
+对照YOLOv5给出版本，[参考网址](https://github.com/wang-xinyu/tensorrtx/tree/master/yolov5)
 
 2.修改配置文件
 
